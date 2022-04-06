@@ -1,0 +1,18 @@
+body{
+    font-family: Montserrat;
+    background-image:url(img/Screenshot_0456.png);
+}
+.welcometext{
+margin-right: 50%;
+color: black;
+padding-left: 75px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+h4{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.nav{
+    font-size: 30px;
+}
