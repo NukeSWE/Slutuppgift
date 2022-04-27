@@ -1,0 +1,24 @@
+.welcomebody{
+    background-image:url(img/Screenshot_0456.png);
+    overflow: hidden;
+}
+.welcomecontainer{
+    background-color:#10110fc2;
+    border-radius: 25px;
+    padding-top: 2px;
+    padding-left: 8px;
+}
+.welcometext{
+    margin-left: 50%;
+    color: whitesmoke;
+    padding-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.video{
+    float: left;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 120px;
+    border-radius: 25px;
+}

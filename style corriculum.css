@@ -1,0 +1,42 @@
+.corriculumbody{
+    background-image:url(img/AF_Screenshot_03.png);
+    background-position:top;
+}
+.curriculumheaderleft{
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: whitesmoke;
+    padding-right: 50%;
+}
+.curriculumheaderright{
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: whitesmoke;
+    padding-left: 50%;
+}
+.curriculumtextleft{
+    color: whitesmoke;
+    border-radius: 5px;
+    background-color: #10110fc2;
+    margin-right: 55%;
+    float: left;
+    padding-left: 15px;
+}
+.curriculumtextright{
+    color: whitesmoke;
+    border-radius: 5px;
+    background-color: #10110fc2;
+    margin-left: 55%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.curriculummisc{
+    color: aqua;
+    font-size: 20px;
+    font-style: italic;
+}
