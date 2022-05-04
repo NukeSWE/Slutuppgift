@@ -7,48 +7,179 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <!-- Mina egna länkade styles och logga -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style corriculum.css">
     <link rel="icon" href="img/IQ_Logo_BlackWhite_Simple.png">
+
 
     <title>The Indie Quest</title>
   </head>
-  <body>
+  <body class="corriculumbody">
 
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link" href="Welcome.html">Welcome</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="About.html">About us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="Corriculum.html">Corriculum</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Find us.html">Find us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Apply.html">Apply</a>
-      </li>
-    </ul>
+    <!--Navbaren som används på alla sidor-->
+    <div class="nav">
+     <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="Welcome.html"><i class="fa fa-fw fa-home"></i>Welcome</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="Corriculum.html">Corriculum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Find us.html">Find us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Apply.html">Apply</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About us</a>
+        </li>
+     </ul>
+    </div>
+
+    <br><br><br>
+
+    <!--Denna div används för att se till att inget ligger längs med kanten av sidan-->
+    <div class="padding">
+
+      <h2>Programming and production</h2>
+
+    <div class="corriculummisc">
+      <p>Our program is divided into 5 sections, intended to be covered in 1 year of full-time study.</p>
+    </div>
+
+  <!--Här har jag gjort ett gridsystem som ser till att det ligger 3 rutor irad-->
+  <div class="row">
+
+  <div class="col">
+      
+    <!--Här kommer texten kunden ville ha-->
+      <h3 class="corriculumheader">1. Preparation</h3>
+    <div class="corriculumtext">
+      <p>
+        The Indie Quest requires no previous experience in programming. Through carefully designed missions, you will conquer the basics of programming by coding individual aspects of games.
+        You will learn how computers work and touch on other aspects of computer science, such as computational thinking and algorithm design, so that you will have the foundation to tackle any programming problems thrown your way.
+        <br>
+        Skills covered:
+      </p>
+      <p>
+        ●	How computers work <br>
+        ●	Procedural programming <br>
+        ●	Algorithm design basics <br>
+        ●	Data types and structures <br>
+        ●	Text manipulation <br>
+        ●	User interaction <br>
+      </p>
+    </div>
+  </div>
+
+  <div class="col">
+      <h3 class="corriculumheader">2. Text adventure</h3>
+    <div class="corriculumtext">
+      <p>
+        It's time to design your first game. You will choose your own theme and write a text adventure with various locations, characters, and objects to manipulate.
+        It's up to you what the goal of the game is.
+        The project will be bigger than previous missions and require a more organized approach.
+        <br>
+        Skills covered:
+      </p>
+      <p>
+        ●	Game design documentation <br>
+        ●	Code organization <br>
+        ●	Functional programming basics <br>
+        ●	Project management <br>
+      </p>
+    </div>
+  </div>
+
+  <div class="col">
+    <h3 class="corriculumheader">3. Arcade game</h3>
+    <div class="corriculumtext">
+      <p>
+        Your next project is a simple, top-down, one-screen arcade game, such as a space shooter.
+        You will take your coding knowledge and use it to learn game programming with the Unity game engine.
+        <br>
+        Skills covered:
+      </p>
+      <p>
+        ●	Game architecture <br>
+        ●	Scene management <br>
+        ●	Graphics engine basics <br>
+        ●	Physics engine basics <br>
+        ●	Art assets <br>
+        ●	User interface <br>
+        ●	Vector math <br>
+        ●	Basic artificial intelligence <br>
+        ●	Agile development <br>
+      </p>
+    </div>
+  </div>
+  </div>
+
+  <div class="row">
+
+  <div class="col">
+    <h3 class="corriculumheader">3.5 Game Jam</h3>
+    <div class="corriculumtext">
+      <p>
+        Before we move on to more learning, you will participate in a 72-hours game jam that will bring everyone at Spellkolektivet together to create games based around a shared theme.
+        You could work alone or take the opportunity to team up, either with other students or join the rest of the developers from the house.
+    </div>
+
+    <h3 class="corriculumheader">4. Platformer</h3>
+    <div class="corriculumtext">
+      <p>
+        With basic game architecture knowledge under your belt, it's time to create a complex game that will use all the most common components you'll need in any game project.
+        This will be the last guided project before starting your final game.
+      <br>
+        Skills covered:
+      </p>
+      <p>
+        ●	Object-oriented programming <br>
+        ●	Memory management <br>
+        ●	State-based artificial intelligence <br>
+        ●	Pathfinding <br>
+        ●	Animation <br>
+        ●	Game object organization <br>
+        ●	Levels and menus <br>
+        ●	Saving and loading <br>
+        ●	Audio <br>
+      </p>
+    </div>
+  </div>
+
+  <div class="col">
+    <h3 class="corriculumheader">5. Final project</h3>
+    <div class="corriculumtext">
+      <p>
+        The game you will graduate the program with will be completely up to you.
+        It's time to put all you've learned into a polished product, optionally learning some advanced topics along the way.
+        You can go at it alone, or join forces with another classmate or two.
+        <br>
+        Optional skills to explore:
+      </p>
+      <p>
+        ●	3D graphics and physics <br>
+        ●	Procedural level generation <br>
+        ●	Complex control systems and UI <br>
+        ●	Goal-based artificial intelligence <br>
+        ●	Multiplayer <br>
+        ●	Marketing <br>
+        ●	Publishing <br>
+      </p>
+    </div>
+  </div>
+  </div>
 
 
 
+    <!--Dessa blankrader är till så att man kan bläddra ner lite längre på sidan för bekvämlighetens skull-->
+    <br><br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
