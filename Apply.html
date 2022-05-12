@@ -50,9 +50,13 @@
     </div>
 
     <div class="applytext">
+
+      <!--Här ska läsaren skriva in sina kontaktuppgifter om dom vill ansöka-->
       <p>
         <form action="">
         Personnummer (ÅÅÅÅMMDD-XXXX) * <br>
+
+        <!--Dessa kodbitar är textrutor som läsaren kan skriva i-->
         <input type="text" name="personnummer"> <br>
 
         Förnamn * <br>
@@ -79,10 +83,38 @@
         E-post <br>
         <input type="text" name="epost"> <br>
 
-        Hur vill du bli kontaktad? (telefon, e-post, sms) * <br>
+        <!--Här kommer flervals-punkterna se till att istället för att skriva så ska läsaren kunna trycka i en av valen-->
+        <p>Hur vill du bli kontaktad? (telefon, e-post, sms) * </p>
+        <div class="row">
+          <div class="col">
+            <input type="checkbox"> Telefon
+         </div>
+          <div class="col">
+            <input type="checkbox"> E-post
+          </div>
+          <div class="col">
+            <input type="checkbox"> SMS
+          </div>
+        </div>
 
+        <p> Medborgarskap (svensk, annat (ange land)) * <br> </p>
 
-        Medborgarskap (svensk, annat (ange land)) * <br>
+        <div class="row">
+          <div class="col">
+            <input type="radio">Svensk<br>
+         </div>
+          <div class="col">
+            <input type="radio">Annat
+          </div>
+          <div class="col">
+            <input type="text">
+          </div>
+
+          <br><br><br>
+
+        <div class="d-grid gap-2" id="knapp">
+          <button class="btn btn-primary-success" type="button" onclick="alert('Har du fyllt i alla obligatoriska fält? (Markerade med *)')">Apply</button>
+        </div>
 
 
         </form>
@@ -104,7 +136,7 @@
 
 
     <!--Dessa blankrader är till så att man kan bläddra ner lite längre på sidan för bekvämlighetens skull-->
-    <br><br><br>
+    <br><br>
 
 </div>
 
