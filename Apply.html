@@ -97,20 +97,21 @@
           </div>
         </div>
 
+        <!--Här skriver läsaren in sin nationalitet-->
+
         <p> Medborgarskap (svensk, annat (ange land)) * <br> </p>
 
         <div class="row">
           <div class="col">
-            <input type="radio">Svensk<br>
+            <input type="radio" name="nationalitet" value="Svensk" checked>Svensk<br>
          </div>
           <div class="col">
-            <input type="radio">Annat
+            <input type="radio" name="nationalitet" value="Annat">Annat<br> <input type="text">
           </div>
-          <div class="col">
-            <input type="text">
-          </div>
-
+        
           <br><br><br>
+
+          <!--Här är knappen för att ansöka-->
 
         <div class="d-grid gap-2" id="knapp">
           <button class="btn btn-primary-success" type="button" onclick="alert('Har du fyllt i alla obligatoriska fält? (Markerade med *)')">Apply</button>
